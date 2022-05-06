@@ -1,18 +1,26 @@
 /****** Inicio Footer ******/
 .footer-container {
     background-color: rgb(71, 70, 70);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Smooch Sans', sans-serif;
     gap: 200px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     .footer div a{
         text-decoration: none;
         color: white;
+        margin: 10px;
     }
 }
-
-.font div a{
+.font div a {
     text-decoration: none;
-    color: rgb(223, 37, 37);
+    color: white;
+    
 }
-
+.logo-footer {
+    width: 300px;
+   
+}
 /****** Fin Footer ******/ 

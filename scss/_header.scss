@@ -3,10 +3,12 @@ html {
     font-size: 35px;
 }
 
-.home {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.body {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    padding-bottom: 7em;
+    min-height: 100vh;
 }
 
 /* Fin Body */
