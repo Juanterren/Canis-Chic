@@ -77,33 +77,6 @@ input.src {
 }
 
 /* Fin Header */
-/****** Inicio carrusel de imagenes ******/
-.image-div {
-  width: 100%;
-  display: flex;
-}
-
-.image-div img {
-  width: 33.33%;
-}
-
-/****** Fin carrusel de imagenes ******/
-/****** Inicio preguntas frecuentes ******/
-.preguntas-container {
-  font-family: "Smooch Sans", sans-serif;
-  color: rgb(71, 70, 70);
-}
-
-.preguntas-container h1 {
-  display: flex;
-  justify-content: center;
-  border: 4px solid #000000;
-  width: 50%;
-  height: 100%;
-  margin-left: 25%;
-}
-
-/****** Fin preguntas frecuentes ******/
 /****** Inicio Footer ******/
 .footer-container {
   background-color: rgb(71, 70, 70);
@@ -139,5 +112,40 @@ input.src {
 }
 
 /****** Fin imagenes con texto ******/
+/* Inicio imagen de preguntas frecuentes*/
+.preguntas-frecuentes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Fin imagen de preguntas frecuentes*/
+/****** Inicio carrusel de imagenes ******/
+.image-div {
+  width: 100%;
+  display: flex;
+}
+
+.image-div img {
+  width: 33.33%;
+}
+
+/****** Fin carrusel de imagenes ******/
+/* Inicio imagenes con link */
+.img-index {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 240px 240px;
+  gap: 20px;
+}
+
+.img-index a {
+  height: auto;
+  width: auto;
+  max-width: 200px;
+}
+
+/* Fin imagenes con link */
 
 /*# sourceMappingURL=style.css.map */
