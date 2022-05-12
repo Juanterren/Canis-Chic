@@ -28,8 +28,7 @@ html {
   font-family: "Smooch Sans", sans-serif;
   padding: 0px;
 }
-
-.logo-barrabusqueda {
+.header-container .logo-barrabusqueda {
   display: grid;
   background-color: white;
   grid-template-columns: auto auto;
@@ -37,8 +36,7 @@ html {
   display: flex;
   align-items: center;
 }
-
-.logo {
+.header-container .logo-barrabusqueda .logo {
   width: 400px;
   height: 300px;
 }
