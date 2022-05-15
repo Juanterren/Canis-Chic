@@ -4,38 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
+  <!--------------------------- Google Fonts --------------------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap" rel="stylesheet">
+  <!--------------------------- CSS --------------------------->
+  <link rel="stylesheet" href="css/Style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Carrito</title>
 </head>
-<body>
-    
- <!--------------------------- Inicio Header --------------------------->
- <header class="header-container">
-    <img src="Logo Canis Chic.jpeg" alt="Logo Canis Chic" class="logo">
-    <!--------------------------- Inicio barra de busqueda --------------------------->
-    <div>
-        <input type="text" name="search" placeholder="Buscar cualquier cosa" class="src" autocomplete="off"> 
+<body class="body">
+    <!--------------------------- Inicio Header --------------------------->
+    <div class="texto">
+        <p>¡Tenes 10% de descuento abonando de contado! </p class="texto">
     </div>
-    <!--------------------------- Fin barra de busqueda --------------------------->
-    <nav class="header">
-        <div class="header">
-            <div><a href="index.html">Inicio</a></div>
-            <div><a href="Productos.html">Productos</a></div>
-            <div><a href="Carrito.html">Carrito</a></div>
-            <div><a href="Camas Personalizadas.html">Camas Personalizadas</a></div>
-            <div><a href="Preguntas Frecuentes.html">Preguntas Frecuentes</a></div>
+    <header class="header-container">
+        <div class="logo-barrabusqueda">
+            <a href="index.html"> <img src="Logo Canis Chic.jpeg" alt="Logo Canis Chic" class="logo"></a>
+            <!--------------------------- Inicio barra de busqueda --------------------------->
+            <input type="text" name="search" placeholder="Buscar..." class="src" autocomplete="off">
         </div>
-    </nav>
-</header>
-<!--------------------------- FIn Header --------------------------->
-<section>
-    <h1>NADA POR EL MOMENTO</h1>
-</section>
-
-    <!--------------------------- Inicio footer --------------------------->
-    <footer class="container">
-        <nav>
-            <div class="footer">
+        <!--------------------------- Fin barra de busqueda --------------------------->
+        <nav class="header">
+            <div class="header">
                 <div><a href="index.html">Inicio</a></div>
                 <div><a href="Productos.html">Productos</a></div>
                 <div><a href="Carrito.html">Carrito</a></div>
@@ -43,17 +35,66 @@
                 <div><a href="Preguntas Frecuentes.html">Preguntas Frecuentes</a></div>
             </div>
         </nav>
-        <img src="Logo Canis Chic.jpeg" alt="Logo Canis Chic" class="logo">
-        <nav>
-            <div class="font">
-                <div><a href="https://www.facebook.com/canischic">Facebook</a></div>
-                <div><a href="https://www.instagram.com/canischic/?hl=es-la">Instagram</a></div>
-            </div>
-        </nav>
-   
-    </footer>
+    </header>
+    <!--------------------------- FIn Header --------------------------->
+    <!--------------------------- Formulario  --------------------------->
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <span class="input-group-text" id="basic-addon2">@example.com</span>
+      </div>
+      
+      <label for="basic-url" class="form-label">Your vanity URL</label>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <span class="input-group-text">.00</span>
+      </div>
+      
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+        <span class="input-group-text">@</span>
+        <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+      </div>
+      
+      <div class="input-group">
+        <span class="input-group-text">With textarea</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+       <!--------------------------- Formulario  --------------------------->
 
-    <!--------------------------- Fin footer --------------------------->
+   <!--------------------------- Inicio footer --------------------------->
+
+   <footer class="footer-container">
+    <nav>
+        <div class="footer">
+            <div><a href="index.html">Inicio</a></div>
+            <div><a href="Productos.html">Productos</a></div>
+            <div><a href="Carrito.html">Carrito</a></div>
+            <div><a href="Camas Personalizadas.html">Camas Personalizadas</a></div>
+            <div><a href="Preguntas Frecuentes.html">Preguntas Frecuentes</a></div>
+        </div>
+    </nav>
+    <a href="index.html"> <img src="Logo Canis Chic 2.jpeg" alt="Logo Canis Chic" class="logo-footer"></a>
+    <nav>
+        <div class="font">
+            <div><a href="https://www.facebook.com/canischic">Facebook</a></div>
+            <div><a href="https://www.instagram.com/canischic/?hl=es-la">Instagram</a></div>
+        </div>
+    </nav>
+</footer>
+
+<!--------------------------- Fin footer --------------------------->
+
 
 
 
