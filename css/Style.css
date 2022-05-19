@@ -166,4 +166,9 @@ input.src {
   width: 90%;
 }
 
+.carrito {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
