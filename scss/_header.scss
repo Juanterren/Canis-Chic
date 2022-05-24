@@ -14,6 +14,7 @@ html {
 /* Fin Body */
 
 /* Inicio Header*/
+
 .texto {
     color: white;
     background-color: rgb(71, 70, 70);
@@ -22,7 +23,14 @@ html {
     display: flex;
     justify-content: center;
     font-family: 'Smooch Sans', sans-serif;
-}
+    @media (max-width:768px) {
+        font-size: 15px;
+        width: 65%;
+        display: flex;
+                  
+
+    }
+} 
 
 .header-container {
     background-color: rgb(255, 255, 255);
@@ -38,7 +46,15 @@ html {
         .logo {
             width: 400px;
             height: 300px;
+            @media (max-width:768px) {
+                width: 150px;
+                height: min-content;
+            }
         }
+    }
+    @media (max-width:768px) {
+        font-size: 15px;
+        
     }
 }
 .header {
